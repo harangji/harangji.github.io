@@ -7928,6 +7928,18 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* adjust to control space between logos */
+}
+
+.skill-logo {
+  width: 100px; /* adjust to control size of logos */
+  height: auto;
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important; }
